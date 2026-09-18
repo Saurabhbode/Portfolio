@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional experience of Saurabh Bode."
+    />
+    <title>Experience | Saurabh Bode</title>
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/experience.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap">
+        <a href="index.html" class="brand">Saurabh</a>
+        <div class="nav-links">
+          <a href="projects.html">Projects</a
+          ><a href="freelance.html">Freelance</a><a href="about.html">About</a
+          ><a href="experience.html">Experience</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-cta" href="enquiry.html"
+          ><span class="status-dot"></span> Start a project</a
+        >
+      </nav>
+    </header>
+    <main class="experience-page">
+      <div class="wrap">
+        <header class="page-hero">
+          <p class="eyebrow">Career journey</p>
+          <h1>Experience<br />that ships.</h1>
+          <p>
+            From foundational Java development to owning secure, cloud-ready
+            platforms and AI-enabled features.
+          </p>
+        </header>
+        <section class="timeline">
+          <article>
+            <time>May 2025 — Present</time>
+            <div>
+              <small>3Gen Consulting · Pune</small>
+              <h2>Full Stack Developer</h2>
+              <p>
+                Designing Java and Spring Boot services, secure REST endpoints,
+                JDBC and MySQL data flows, Kafka-based microservices, and AWS
+                deployments. Supporting CI/CD with Jenkins and Docker while
+                applying Spring AI and prompt engineering.
+              </p>
+            </div>
+          </article>
+          <article>
+            <time>Jan 2022 — Jun 2024</time>
+            <div>
+              <small>Codify Software Services · Pune</small>
+              <h2>Full Stack Developer</h2>
+              <p>
+                Owned delivery from requirement analysis and solution design
+                through implementation, UAT, training, deployment, and
+                production support. Built React interfaces, Spring Boot APIs,
+                scalable MySQL schemas, automated tests, Docker images, and
+                GitHub Actions pipelines.
+              </p>
+            </div>
+          </article>
+          <article>
+            <time>Jan 2021 — Dec 2021</time>
+            <div>
+              <small>Codify Software Services · India</small>
+              <h2>Full Stack Developer Intern</h2>
+              <p>
+                Developed and tested Java, Spring, and MySQL features under
+                senior guidance. Wrote JUnit tests, joined code reviews and
+                Agile ceremonies, practiced collaborative Git workflows, and
+                explored AI-assisted development tools.
+              </p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="footer wrap">
+      <span>© <span id="year"></span> Saurabh Bode</span
+      ><a href="contact.html">Let's talk →</a>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

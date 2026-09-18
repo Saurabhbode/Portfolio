@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Freelance websites and digital products built by Saurabh Bode."
+    />
+    <title>Freelance | Saurabh Bode</title>
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/freelance.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap">
+        <a href="index.html" class="brand">Saurabh</a>
+        <div class="nav-links">
+          <a href="projects.html">Projects</a
+          ><a href="freelance.html">Freelance</a><a href="about.html">About</a
+          ><a href="experience.html">Experience</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-cta" href="enquiry.html"
+          ><span class="status-dot"></span> Start a project</a
+        >
+      </nav>
+    </header>
+    <main class="wrap">
+      <header class="page-hero">
+        <p class="eyebrow">Independent work</p>
+        <h1>Freelance<br />projects.</h1>
+        <p>
+          Websites, APIs, and digital products built for clients outside my
+          full-time work.
+        </p>
+      </header>
+      <section class="freelance-layout">
+        <article class="freelance-intro">
+          <p class="eyebrow">Open for collaborations</p>
+          <h2>From idea<br />to launch</h2>
+          <p>
+            I help turn business ideas into clean, reliable web experiences—from
+            responsive frontends to secure backend APIs and production-ready
+            deployments.
+          </p>
+          <a class="button" href="enquiry.html"
+            >Start a project enquiry <span>→</span></a
+          >
+        </article>
+        <div class="client-list">
+          <a
+            class="client"
+            href="https://bumbush.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="../assets/Bumbush_JPEG_TM.jpg" alt="Bumbush logo" /><strong
+              >Bumbush</strong
+            ><span>↗</span></a
+          ><a
+            class="client"
+            href="https://ahomaalak.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="../assets/Aho Malak Logo_JPEG_TM.jpg"
+              alt="Ahoma Alak logo"
+            /><strong>Ahoma Alak</strong><span>↗</span></a
+          ><a
+            class="client"
+            href="https://jeevashi.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="../assets/Jivashi_JPEG_TM.jpg" alt="Jeevashi logo" /><strong
+              >Jeevashi</strong
+            ><span>↗</span></a
+          ><a
+            class="client"
+            href="https://maradomfoundation.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="../assets/Maradom Foundation Logo_JPEG_TM.jpg"
+              alt="Maradom Foundation logo"
+            /><strong>Maradom Foundation</strong><span>↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <span>© <span id="year"></span> Saurabh Bode</span
+      ><a href="contact.html">Let's talk →</a>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

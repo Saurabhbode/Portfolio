@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Selected enterprise projects by Saurabh Bode."
+    />
+    <title>Projects | Saurabh Bode</title>
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/projects.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap">
+        <a href="index.html" class="brand">Saurabh</a>
+        <div class="nav-links">
+          <a href="projects.html">Projects</a
+          ><a href="freelance.html">Freelance</a><a href="about.html">About</a
+          ><a href="experience.html">Experience</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-cta" href="enquiry.html"
+          ><span class="status-dot"></span> Start a project</a
+        >
+      </nav>
+    </header>
+    <main class="wrap">
+      <header class="page-hero">
+        <p class="eyebrow">Selected work</p>
+        <h1>Enterprise<br />platforms.</h1>
+        <p>
+          Dependable backend architecture, secure APIs, resilient distributed
+          systems, and clear business outcomes.
+        </p>
+      </header>
+      <section class="project-grid">
+        <article class="project card">
+          <div class="project-visual blue">
+            <span>01 / Health Insurance</span>
+            <h2>RevGen-i<br />Eligibility<br />Platform</h2>
+          </div>
+          <div class="project-body">
+            <p>
+              Built microservices and REST APIs for citizen enrollment,
+              eligibility, case management, and benefits processing across SNAP,
+              Medicaid, Medicare, CCAP, and QHP programs.
+            </p>
+            <div class="tags">
+              <b>Java</b><b>Spring Boot</b><b>Kafka</b><b>AWS</b><b>RAG</b
+              ><b>MySQL</b>
+            </div>
+          </div>
+        </article>
+        <article class="project card">
+          <div class="project-visual red">
+            <span>02 / Insurance</span>
+            <h2>SpineGen-i<br />Policy &<br />Claims</h2>
+          </div>
+          <div class="project-body">
+            <p>
+              Designed RESTful APIs and data models for policy, customer,
+              payment, and claims workflows, including premium calculation,
+              claims handling, validation, and query optimization.
+            </p>
+            <div class="tags">
+              <b>Java</b><b>Spring Boot</b><b>Hibernate</b><b>REST APIs</b
+              ><b>Postman</b>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <span>© <span id="year"></span> Saurabh Bode</span
+      ><a href="contact.html">Let's talk →</a>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

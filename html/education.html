@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Education and working principles of Saurabh Bode."
+    />
+    <title>Education | Saurabh Bode</title>
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/education.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap">
+        <a href="index.html" class="brand">Saurabh</a>
+        <div class="nav-links">
+          <a href="projects.html">Projects</a
+          ><a href="freelance.html">Freelance</a><a href="about.html">About</a
+          ><a href="experience.html">Experience</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-cta" href="enquiry.html"
+          ><span class="status-dot"></span> Start a project</a
+        >
+      </nav>
+    </header>
+    <main class="wrap">
+      <header class="page-hero">
+        <p class="eyebrow">Foundation</p>
+        <h1>Learn.<br />Build.<br />Improve.</h1>
+        <p>
+          The foundation behind a practical, collaborative approach to software
+          delivery.
+        </p>
+      </header>
+      <section class="education-grid">
+        <div>
+          <article class="card education-card">
+            <p class="eyebrow">Bachelor of Technology</p>
+            <h2>Information Technology</h2>
+            <p>Kalinga University, Raipur<br />First Division</p>
+          </article>
+          <article class="card education-card">
+            <p class="eyebrow">Diploma</p>
+            <h2>Hardware & Networking</h2>
+            <p>AIITR, Maharashtra<br />Grade A</p>
+          </article>
+        </div>
+        <article class="method-card">
+          <div>
+            <p class="eyebrow">How I work</p>
+            <h2>Useful over flashy.</h2>
+            <p>
+              Agile Scrum, pair programming, requirement analysis, system
+              design, clean code, TDD, collaborative reviews, full SDLC
+              ownership, and dependable production support.
+            </p>
+          </div>
+          <strong>{ }</strong>
+        </article>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <span>© <span id="year"></span> Saurabh Bode</span
+      ><a href="contact.html">Let's talk →</a>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

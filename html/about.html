@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Saurabh Bode and his technical skills."
+    />
+    <title>About | Saurabh Bode</title>
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap">
+        <a href="index.html" class="brand">Saurabh</a>
+        <div class="nav-links">
+          <a href="projects.html">Projects</a
+          ><a href="freelance.html">Freelance</a><a href="about.html">About</a
+          ><a href="experience.html">Experience</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-cta" href="enquiry.html"
+          ><span class="status-dot"></span> Start a project</a
+        >
+      </nav>
+    </header>
+    <main class="wrap">
+      <header class="page-hero">
+        <p class="eyebrow">About me</p>
+        <h1>Code with<br />purpose.</h1>
+        <p>
+          I’m a results-driven Full Stack Java Developer based in Pune, focused
+          on reliable applications that solve real business problems.
+        </p>
+      </header>
+      <section class="about-grid">
+        <div class="stats">
+          <div><strong>4+</strong><span>Years experience</span></div>
+          <div><strong>2</strong><span>Enterprise platforms</span></div>
+          <div><strong>Full</strong><span>SDLC ownership</span></div>
+          <div><strong>AI</strong><span>Augmented delivery</span></div>
+        </div>
+        <div class="skills">
+          <p>
+            I work across architecture, development, testing, deployment, and
+            production support—and use AI tools thoughtfully to accelerate
+            quality delivery.
+          </p>
+          <div class="skill">
+            <h2>Backend</h2>
+            <p>
+              Java, Spring Framework, Spring Boot, Spring MVC, Spring Security,
+              Hibernate/JPA, JDBC, Servlets, JSP, J2EE
+            </p>
+          </div>
+          <div class="skill">
+            <h2>Architecture</h2>
+            <p>
+              RESTful APIs, event-driven microservices, Apache Kafka, service
+              discovery, Resilience4j patterns
+            </p>
+          </div>
+          <div class="skill">
+            <h2>Frontend</h2>
+            <p>
+              React.js, HTML5, CSS3, responsive interface design, reusable
+              component architecture
+            </p>
+          </div>
+          <div class="skill">
+            <h2>Cloud & DevOps</h2>
+            <p>
+              AWS, Azure, Docker, Jenkins, GitHub Actions, Tomcat, Maven, MySQL
+            </p>
+          </div>
+          <div class="skill">
+            <h2>Generative AI</h2>
+            <p>
+              Spring AI, prompt engineering, LLM integration, RAG, agentic AI,
+              GitHub Copilot and ChatGPT
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <span>© <span id="year"></span> Saurabh Bode</span
+      ><a href="contact.html">Let's talk →</a>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

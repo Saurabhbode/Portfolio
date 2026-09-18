@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Saurabh Bode, Full Stack Java Developer."
+    />
+    <title>Saurabh Bode | Full Stack Java Developer</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap" aria-label="Main navigation">
+        <a href="index.html" class="brand">Saurabh</a>
+        <div class="nav-links">
+          <a href="projects.html">Projects</a
+          ><a href="freelance.html">Freelance</a><a href="about.html">About</a
+          ><a href="experience.html">Experience</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-cta" href="enquiry.html"
+          ><span class="status-dot"></span> Start a project</a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">Hi, I'm Saurabh Bode</p>
+          <h1>Full Stack<br /><span>Java</span><small>Developer</small></h1>
+          <p class="hero-intro">
+            I build scalable, cloud-native applications with Java, Spring Boot,
+            React.js, AWS, and event-driven microservices—backed by 4+ years of
+            full SDLC experience.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="projects.html"
+              >Explore my work <span>→</span></a
+            ><a class="button" href="../documents/Saurabh_Bode_Resume.docx" download
+              >Download résumé <span>↓</span></a
+            >
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Developer code illustration">
+          <div class="code-window">
+            <i></i><i></i><i></i>
+            <p><b>@RestController</b></p>
+            <p><em>class</em> Developer {</p>
+            <p>&nbsp; String name = <em>"Saurabh"</em>;</p>
+            <p>&nbsp; Stack stack = <b>JAVA_FULL_STACK</b>;</p>
+            <p>&nbsp; <small>// build. ship. improve.</small></p>
+            <p>}</p>
+          </div>
+          <strong>SB</strong><span>4+ years<br />experience</span>
+        </div>
+      </section>
+      <section class="home-strip">
+        <div class="wrap strip-grid">
+          <p class="eyebrow">Selected direction</p>
+          <h2>Code with<br /><span>purpose.</span></h2>
+          <p>
+            Reliable systems, thoughtful interfaces, and practical AI-enabled
+            delivery for products that need to work in the real world.
+          </p>
+          <a class="text-link" href="about.html">More about me →</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <span>© <span id="year"></span> Saurabh Bode · Pune, India</span
+      ><a href="contact.html">Let's talk →</a>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
