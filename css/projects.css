@@ -27,6 +27,22 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.project-visual .hero-project-badge {
+  padding: 7px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 0.56rem;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  white-space: nowrap;
+}
 .project-visual h2 {
   margin: 0;
   font-size: clamp(2.8rem, 5vw, 5.4rem);
