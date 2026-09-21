@@ -1,51 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Start a freelance project enquiry with Saurabh Bode.">
-  <title>Freelance Enquiry | Saurabh Bode</title>
-  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/enquiry.css">
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav wrap" aria-label="Main navigation">
-      <a href="index.html" class="brand" aria-label="Saurabh Bode home">Saurabh</a>
-      <a class="back-link" href="index.html#freelance">Back to freelance <span>↗</span></a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Start a freelance project enquiry with Saurabh Bode."
+    />
+    <title>Freelance Enquiry | Saurabh Bode</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/enquiry.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap" aria-label="Main navigation">
+        <a href="index.html" class="brand" aria-label="Saurabh Bode home"
+          >Saurabh</a
+        >
+        <a class="back-link" href="index.html#freelance"
+          >Back to freelance <span>↗</span></a
+        >
+      </nav>
+    </header>
 
-  <main class="enquiry-page">
-    <section class="enquiry-shell wrap">
-      <div class="enquiry-intro">
-        <p class="eyebrow">Freelance enquiry</p>
-        <h1>Tell me<br>what you need.</h1>
-        <p>Share a few details about your project, and I’ll get back to you by email.</p>
-      </div>
-
-      <form class="enquiry-form" action="https://formsubmit.co/saurabhbode222.sb@gmail.com" method="POST">
-        <input type="hidden" name="_subject" value="New freelance enquiry from portfolio">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_next" value="https://saurabhbode.github.io/Portfolio/">
-        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="honeypot">
-
-        <label>Name<input type="text" name="name" autocomplete="name" required></label>
-        <label>Email<input type="email" name="email" autocomplete="email" required></label>
-        <label>Phone / WhatsApp<input type="tel" name="phone" autocomplete="tel"></label>
-        <label>Project type<input type="text" name="project" placeholder="Website, app, API..." required></label>
-        <label class="full-width">Your enquiry<textarea name="message" placeholder="Tell me about your goals, timeline, and budget if known." required></textarea></label>
-        <div class="form-actions">
-          <button class="button primary" type="submit">Send enquiry
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 14-7-4 14-3-5-7-2Z"/><path d="m12 14 3-3"/></svg>
-          </button>
-          <p>Your enquiry will be sent directly to my email. I’ll respond as soon as possible.</p>
+    <main class="enquiry-page">
+      <section class="enquiry-shell wrap">
+        <div class="enquiry-intro">
+          <p class="eyebrow">Freelance enquiry</p>
+          <h1>Tell me<br />what you need.</h1>
+          <p>
+            Share a few details about your project, and I’ll get back to you by
+            email.
+          </p>
         </div>
-      </form>
-    </section>
-  </main>
-</body>
+
+        <form
+          class="enquiry-form"
+          action="https://formsubmit.co/saurabhbode222.sb@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="New freelance enquiry from portfolio"
+          />
+          <input type="hidden" name="_template" value="table" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://saurabhbode.github.io/Portfolio/"
+          />
+          <input
+            type="text"
+            name="_honey"
+            tabindex="-1"
+            autocomplete="off"
+            class="honeypot"
+          />
+
+          <label
+            >Name<input type="text" name="name" autocomplete="name" required
+          /></label>
+          <label
+            >Email<input
+              type="email"
+              name="email"
+              autocomplete="email"
+              required
+          /></label>
+          <label
+            >Phone / WhatsApp<input type="tel" name="phone" autocomplete="tel"
+          /></label>
+          <label
+            >Project type<input
+              type="text"
+              name="project"
+              placeholder="Website, app, API..."
+              required
+          /></label>
+          <label class="full-width"
+            >Your enquiry<textarea
+              name="message"
+              placeholder="Tell me about your goals, timeline, and budget if known."
+              required
+            ></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="button primary" type="submit">
+              Send enquiry
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="m5 12 14-7-4 14-3-5-7-2Z" />
+                <path d="m12 14 3-3" />
+              </svg>
+            </button>
+            <p>
+              Your enquiry will be sent directly to my email. I’ll respond as
+              soon as possible.
+            </p>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
