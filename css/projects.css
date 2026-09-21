@@ -35,13 +35,27 @@
 }
 .project-visual .hero-project-badge {
   padding: 7px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid #9cffe8;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.14);
+  background: #9cffe8;
+  color: #242033;
   font-size: 0.56rem;
   letter-spacing: 0.12em;
   line-height: 1;
   white-space: nowrap;
+  box-shadow: 0 0 10px rgba(156, 255, 232, 0.7);
+  animation: hero-badge-glow 1.8s ease-in-out infinite;
+}
+@keyframes hero-badge-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 8px rgba(156, 255, 232, 0.55);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(156, 255, 232, 1);
+    transform: scale(1.06);
+  }
 }
 .project-visual h2 {
   margin: 0;
@@ -101,5 +115,10 @@
   }
   .project-visual {
     min-height: 320px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-visual .hero-project-badge {
+    animation: none;
   }
 }
